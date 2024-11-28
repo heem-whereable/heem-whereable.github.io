@@ -1,0 +1,324 @@
+\doxysection{lidar\+\_\+controller.\+Li\+DARController Class Reference}
+\hypertarget{classlidar__controller_1_1_li_d_a_r_controller}{}\label{classlidar__controller_1_1_li_d_a_r_controller}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a57f5385c9274cef628bfccf7817971d0}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_abfbbc4b49916f05899c506943dddcae5}{ip}}="{}192.\+168.\+1.\+201"{}, \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a9846f5f3c481b0bf72cd50671d2ef708}{port}}=20108, \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a5854883464eda20946371e0848dc0369}{lidar\+\_\+monitor}}=None, \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a9bf384d0db1cc27bb7a974ee55eeabe6}{status\+\_\+monitor}}=None, \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a1ca7d3ee2b1f546f8a443fe29fc4a4a9}{status\+\_\+bar}}=None)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a9450f0d4b823f7120a702453e18bed66}{connect}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_ae10c25ffa87b5d2e4505c7c03e803082}{send\+\_\+command}} (self, request\+\_\+header, request\+\_\+type=0x00, payload=-\/1)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_af0a4060061afb8be3e3175e1a83c5fa6}{read\+\_\+loop}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a0746b8e4b5f1ea5a1dcd96be23dfdf3f}{write\+\_\+loop}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a2a2c86af49d58dba848c96cee4918b76}{close}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_ae17c160eb92dd77fa7c19dc3e6a6a811}{set\+\_\+rpm}} (self, rpm)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a490bdf6375a1918dcdd60f080339e75e}{get\+\_\+every\+\_\+info}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a1b3c55f4745f962f90b5d81af0743d3d}{update\+\_\+status\+\_\+info}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_ac7afc34c90d3bfe4db8d337102fb2694}{calculate\+\_\+checksum}} (self, command)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a63798089ce579e3b5d382494fa98d343}{calculate\+\_\+rpm}} (self, sample\+\_\+rate, samples\+\_\+per\+\_\+scan)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a094c2494808a3c65e52fd56416ed5757}{set\+\_\+tcp}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a3b1bf27024c449e4cf1a1492b1e9ae9b}{set\+\_\+udp}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a735afff2a78c52c588c98090ceb93974}{start\+\_\+legacy\+\_\+scan}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a367a2028812d5402206a7ba4d46aa55d}{start\+\_\+express\+\_\+scan}} (self, scan\+\_\+mode=0)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a329dcf516c5399a759c5f8de98411c28}{stop\+\_\+scan}} (self)
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a7a671a0eabb6dc379dbe24906db9acb9}{reset}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a6ac1093c956f2d883a61234047fbaffb}{lidar}} = \mbox{\hyperlink{classlidar_1_1_li_d_a_r}{Li\+DAR}}()
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_abfbbc4b49916f05899c506943dddcae5}{ip}} = ip
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a9846f5f3c481b0bf72cd50671d2ef708}{port}} = port
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a7c9db9e4e5f10022b496772e2a7cbd1b}{reader}} = None
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_af848d338cb84c6da2774d79e0e40c9a6}{writer}} = None
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a5854883464eda20946371e0848dc0369}{lidar\+\_\+monitor}} = lidar\+\_\+monitor
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a9bf384d0db1cc27bb7a974ee55eeabe6}{status\+\_\+monitor}} = status\+\_\+monitor
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a1ca7d3ee2b1f546f8a443fe29fc4a4a9}{status\+\_\+bar}} = status\+\_\+bar
+\item 
+bool \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_ab747884566d525644910ebfd6b7a3a4d}{is\+\_\+connected}} = False
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a08d685c50b8826bd8c32b0b12d4c9f38}{send\+\_\+queue}} = asyncio.\+Queue()
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a66577d7665eae4ddd69888e2101468fa}{read\+\_\+task}} = None
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a7f2eec0c46d0df6a24647656802732ab}{write\+\_\+task}} = None
+\item 
+\mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_aac4281f9be1bf9f4d9b68c8aa704e792}{response\+\_\+handler}} = \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler}{Li\+DARResponse\+Handler}}(self.\+lidar\+\_\+monitor, self.\+status\+\_\+monitor, self.\+lidar, self.\+status\+\_\+bar)
+\item 
+bool \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_a670814e6e64075a57d10c14f4b4d96a9}{status\+\_\+monitor}} = False
+\item 
+bool \mbox{\hyperlink{classlidar__controller_1_1_li_d_a_r_controller_ace79af3f57e410289d55b4ed6e0aff7e}{is\+\_\+udp}} = False
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}This class represents the LiDAR controller for the application.
+This class is responsible for handling the communication between the application and the LiDAR device.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a57f5385c9274cef628bfccf7817971d0}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a57f5385c9274cef628bfccf7817971d0} 
+lidar\+\_\+controller.\+Li\+DARController.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{ip}{ = {\ttfamily "{}192.168.1.201"{}}, }\item[{}]{port}{ = {\ttfamily 20108}, }\item[{}]{lidar\+\_\+monitor}{ = {\ttfamily None}, }\item[{}]{status\+\_\+monitor}{ = {\ttfamily None}, }\item[{}]{status\+\_\+bar}{ = {\ttfamily None}}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_ac7afc34c90d3bfe4db8d337102fb2694}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!calculate\_checksum@{calculate\_checksum}}
+\index{calculate\_checksum@{calculate\_checksum}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{calculate\_checksum()}{calculate\_checksum()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_ac7afc34c90d3bfe4db8d337102fb2694} 
+lidar\+\_\+controller.\+Li\+DARController.\+calculate\+\_\+checksum (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{command}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a63798089ce579e3b5d382494fa98d343}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!calculate\_rpm@{calculate\_rpm}}
+\index{calculate\_rpm@{calculate\_rpm}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{calculate\_rpm()}{calculate\_rpm()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a63798089ce579e3b5d382494fa98d343} 
+lidar\+\_\+controller.\+Li\+DARController.\+calculate\+\_\+rpm (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{sample\+\_\+rate}{, }\item[{}]{samples\+\_\+per\+\_\+scan}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a2a2c86af49d58dba848c96cee4918b76}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!close@{close}}
+\index{close@{close}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a2a2c86af49d58dba848c96cee4918b76} 
+lidar\+\_\+controller.\+Li\+DARController.\+close (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Closes the connection to the LiDAR device.
+This function closes the connection to the LiDAR device.
+This function is an asynchronous function.
+TODO : Implement UDP connection.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a9450f0d4b823f7120a702453e18bed66}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!connect@{connect}}
+\index{connect@{connect}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{connect()}{connect()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a9450f0d4b823f7120a702453e18bed66} 
+lidar\+\_\+controller.\+Li\+DARController.\+connect (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Connects to the LiDAR device.
+This function establishes a connection to the LiDAR device.
+This function is an asynchronous function.
+TODO : Implement UDP connection.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a490bdf6375a1918dcdd60f080339e75e}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!get\_every\_info@{get\_every\_info}}
+\index{get\_every\_info@{get\_every\_info}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{get\_every\_info()}{get\_every\_info()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a490bdf6375a1918dcdd60f080339e75e} 
+lidar\+\_\+controller.\+Li\+DARController.\+get\+\_\+every\+\_\+info (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Gets every info from the LiDAR device.
+This function gets every info from the LiDAR device. This includes the device info, health, sample rate, and scan modes.
+
+This function is an asynchronous function.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_af0a4060061afb8be3e3175e1a83c5fa6}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!read\_loop@{read\_loop}}
+\index{read\_loop@{read\_loop}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{read\_loop()}{read\_loop()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_af0a4060061afb8be3e3175e1a83c5fa6} 
+lidar\+\_\+controller.\+Li\+DARController.\+read\+\_\+loop (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Reads data from the LiDAR device.
+This function reads data from the LiDAR device.
+This function is an asynchronous function.
+TODO : Implement UDP connection.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a7a671a0eabb6dc379dbe24906db9acb9}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!reset@{reset}}
+\index{reset@{reset}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a7a671a0eabb6dc379dbe24906db9acb9} 
+lidar\+\_\+controller.\+Li\+DARController.\+reset (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_ae10c25ffa87b5d2e4505c7c03e803082}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!send\_command@{send\_command}}
+\index{send\_command@{send\_command}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{send\_command()}{send\_command()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_ae10c25ffa87b5d2e4505c7c03e803082} 
+lidar\+\_\+controller.\+Li\+DARController.\+send\+\_\+command (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{request\+\_\+header}{, }\item[{}]{request\+\_\+type}{ = {\ttfamily 0x00}, }\item[{}]{payload}{ = {\ttfamily -\/1}}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Sends a command to the LiDAR device.
+This function sends a command to the LiDAR device.
+@param request_header The request header of the command.
+@param request_type The request type of the command. used for only GET_LIDAR_CONF and EXPRESS_SCAN
+@param payload The payload of the command. used for only GET_LIDAR_CONF and EXPRESS_SCAN
+This function is an asynchronous function.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_ae17c160eb92dd77fa7c19dc3e6a6a811}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!set\_rpm@{set\_rpm}}
+\index{set\_rpm@{set\_rpm}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{set\_rpm()}{set\_rpm()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_ae17c160eb92dd77fa7c19dc3e6a6a811} 
+lidar\+\_\+controller.\+Li\+DARController.\+set\+\_\+rpm (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{rpm}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Sets the RPM of the LiDAR device.
+
+@param rpm The RPM value to set. 
+\end{DoxyVerb}
+ \Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a094c2494808a3c65e52fd56416ed5757}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!set\_tcp@{set\_tcp}}
+\index{set\_tcp@{set\_tcp}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{set\_tcp()}{set\_tcp()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a094c2494808a3c65e52fd56416ed5757} 
+lidar\+\_\+controller.\+Li\+DARController.\+set\+\_\+tcp (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a3b1bf27024c449e4cf1a1492b1e9ae9b}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!set\_udp@{set\_udp}}
+\index{set\_udp@{set\_udp}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{set\_udp()}{set\_udp()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a3b1bf27024c449e4cf1a1492b1e9ae9b} 
+lidar\+\_\+controller.\+Li\+DARController.\+set\+\_\+udp (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a367a2028812d5402206a7ba4d46aa55d}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!start\_express\_scan@{start\_express\_scan}}
+\index{start\_express\_scan@{start\_express\_scan}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{start\_express\_scan()}{start\_express\_scan()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a367a2028812d5402206a7ba4d46aa55d} 
+lidar\+\_\+controller.\+Li\+DARController.\+start\+\_\+express\+\_\+scan (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{scan\+\_\+mode}{ = {\ttfamily 0}}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a735afff2a78c52c588c98090ceb93974}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!start\_legacy\_scan@{start\_legacy\_scan}}
+\index{start\_legacy\_scan@{start\_legacy\_scan}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{start\_legacy\_scan()}{start\_legacy\_scan()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a735afff2a78c52c588c98090ceb93974} 
+lidar\+\_\+controller.\+Li\+DARController.\+start\+\_\+legacy\+\_\+scan (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a329dcf516c5399a759c5f8de98411c28}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!stop\_scan@{stop\_scan}}
+\index{stop\_scan@{stop\_scan}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{stop\_scan()}{stop\_scan()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a329dcf516c5399a759c5f8de98411c28} 
+lidar\+\_\+controller.\+Li\+DARController.\+stop\+\_\+scan (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a1b3c55f4745f962f90b5d81af0743d3d}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!update\_status\_info@{update\_status\_info}}
+\index{update\_status\_info@{update\_status\_info}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{update\_status\_info()}{update\_status\_info()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a1b3c55f4745f962f90b5d81af0743d3d} 
+lidar\+\_\+controller.\+Li\+DARController.\+update\+\_\+status\+\_\+info (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Updates the LiDAR status info on the status monitor.
+This function updates the LiDAR status info on the status monitor.
+This function is an asynchronous function.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a0746b8e4b5f1ea5a1dcd96be23dfdf3f}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!write\_loop@{write\_loop}}
+\index{write\_loop@{write\_loop}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{write\_loop()}{write\_loop()}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a0746b8e4b5f1ea5a1dcd96be23dfdf3f} 
+lidar\+\_\+controller.\+Li\+DARController.\+write\+\_\+loop (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Writes data to the LiDAR device.
+This function writes data to the LiDAR device.
+This function is an asynchronous function.
+TODO : Implement UDP connection.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_abfbbc4b49916f05899c506943dddcae5}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!ip@{ip}}
+\index{ip@{ip}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{ip}{ip}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_abfbbc4b49916f05899c506943dddcae5} 
+lidar\+\_\+controller.\+Li\+DARController.\+ip = ip}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_ab747884566d525644910ebfd6b7a3a4d}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!is\_connected@{is\_connected}}
+\index{is\_connected@{is\_connected}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{is\_connected}{is\_connected}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_ab747884566d525644910ebfd6b7a3a4d} 
+bool lidar\+\_\+controller.\+Li\+DARController.\+is\+\_\+connected = False}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_ace79af3f57e410289d55b4ed6e0aff7e}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!is\_udp@{is\_udp}}
+\index{is\_udp@{is\_udp}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{is\_udp}{is\_udp}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_ace79af3f57e410289d55b4ed6e0aff7e} 
+bool lidar\+\_\+controller.\+Li\+DARController.\+is\+\_\+udp = False}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a6ac1093c956f2d883a61234047fbaffb}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!lidar@{lidar}}
+\index{lidar@{lidar}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{lidar}{lidar}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a6ac1093c956f2d883a61234047fbaffb} 
+lidar\+\_\+controller.\+Li\+DARController.\+lidar = \mbox{\hyperlink{classlidar_1_1_li_d_a_r}{Li\+DAR}}()}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a5854883464eda20946371e0848dc0369}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!lidar\_monitor@{lidar\_monitor}}
+\index{lidar\_monitor@{lidar\_monitor}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{lidar\_monitor}{lidar\_monitor}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a5854883464eda20946371e0848dc0369} 
+lidar\+\_\+controller.\+Li\+DARController.\+lidar\+\_\+monitor = lidar\+\_\+monitor}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a9846f5f3c481b0bf72cd50671d2ef708}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!port@{port}}
+\index{port@{port}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{port}{port}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a9846f5f3c481b0bf72cd50671d2ef708} 
+lidar\+\_\+controller.\+Li\+DARController.\+port = port}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a66577d7665eae4ddd69888e2101468fa}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!read\_task@{read\_task}}
+\index{read\_task@{read\_task}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{read\_task}{read\_task}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a66577d7665eae4ddd69888e2101468fa} 
+lidar\+\_\+controller.\+Li\+DARController.\+read\+\_\+task = None}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a7c9db9e4e5f10022b496772e2a7cbd1b}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!reader@{reader}}
+\index{reader@{reader}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{reader}{reader}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a7c9db9e4e5f10022b496772e2a7cbd1b} 
+lidar\+\_\+controller.\+Li\+DARController.\+reader = None}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_aac4281f9be1bf9f4d9b68c8aa704e792}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!response\_handler@{response\_handler}}
+\index{response\_handler@{response\_handler}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{response\_handler}{response\_handler}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_aac4281f9be1bf9f4d9b68c8aa704e792} 
+lidar\+\_\+controller.\+Li\+DARController.\+response\+\_\+handler = \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler}{Li\+DARResponse\+Handler}}(self.\+lidar\+\_\+monitor, self.\+status\+\_\+monitor, self.\+lidar, self.\+status\+\_\+bar)}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a08d685c50b8826bd8c32b0b12d4c9f38}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!send\_queue@{send\_queue}}
+\index{send\_queue@{send\_queue}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{send\_queue}{send\_queue}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a08d685c50b8826bd8c32b0b12d4c9f38} 
+lidar\+\_\+controller.\+Li\+DARController.\+send\+\_\+queue = asyncio.\+Queue()}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a1ca7d3ee2b1f546f8a443fe29fc4a4a9}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!status\_bar@{status\_bar}}
+\index{status\_bar@{status\_bar}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{status\_bar}{status\_bar}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a1ca7d3ee2b1f546f8a443fe29fc4a4a9} 
+lidar\+\_\+controller.\+Li\+DARController.\+status\+\_\+bar = status\+\_\+bar}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a9bf384d0db1cc27bb7a974ee55eeabe6}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!status\_monitor@{status\_monitor}}
+\index{status\_monitor@{status\_monitor}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{status\_monitor}{status\_monitor}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a9bf384d0db1cc27bb7a974ee55eeabe6} 
+lidar\+\_\+controller.\+Li\+DARController.\+status\+\_\+monitor = status\+\_\+monitor}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a670814e6e64075a57d10c14f4b4d96a9}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!status\_monitor@{status\_monitor}}
+\index{status\_monitor@{status\_monitor}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{status\_monitor}{status\_monitor}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a670814e6e64075a57d10c14f4b4d96a9} 
+bool lidar\+\_\+controller.\+Li\+DARController.\+status\+\_\+monitor = False}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_a7f2eec0c46d0df6a24647656802732ab}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!write\_task@{write\_task}}
+\index{write\_task@{write\_task}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{write\_task}{write\_task}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_a7f2eec0c46d0df6a24647656802732ab} 
+lidar\+\_\+controller.\+Li\+DARController.\+write\+\_\+task = None}
+
+\Hypertarget{classlidar__controller_1_1_li_d_a_r_controller_af848d338cb84c6da2774d79e0e40c9a6}\index{lidar\_controller.LiDARController@{lidar\_controller.LiDARController}!writer@{writer}}
+\index{writer@{writer}!lidar\_controller.LiDARController@{lidar\_controller.LiDARController}}
+\doxysubsubsection{\texorpdfstring{writer}{writer}}
+{\footnotesize\ttfamily \label{classlidar__controller_1_1_li_d_a_r_controller_af848d338cb84c6da2774d79e0e40c9a6} 
+lidar\+\_\+controller.\+Li\+DARController.\+writer = None}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{lidar__controller_8py}{lidar\+\_\+controller.\+py}}\end{DoxyCompactItemize}

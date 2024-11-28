@@ -1,0 +1,169 @@
+\doxysection{control\+\_\+panel.\+Control\+Panel Class Reference}
+\hypertarget{classcontrol__panel_1_1_control_panel}{}\label{classcontrol__panel_1_1_control_panel}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+Inheritance diagram for control\+\_\+panel.\+Control\+Panel\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcontrol__panel_1_1_control_panel}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a3ed790114cef3ad652e8497a7d16c061}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a9817ce10ffee68c0a4b1fc63843ca8af}{controller}}, \mbox{\hyperlink{classcontrol__panel_1_1_control_panel_ac55c602477bfe9220b50310bc200633a}{settings\+\_\+manager}}, \mbox{\hyperlink{classcontrol__panel_1_1_control_panel_adff91682c6b9f968e1274aaebac53626}{status\+\_\+monitor}}, \mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a456d88a4738c28a2425581c3a48f4d33}{status\+\_\+bar}})
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a6bb7c4e59f10d18d3a6953b09fe7701f}{init\+\_\+ui}} (self)
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a87fd59ccfb61bb77c5c7037f5ccc6d8f}{toggle\+\_\+connection}} (self)
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_aec7b261ab35415f4cb083c287c232f7e}{set\+\_\+rpm}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a9817ce10ffee68c0a4b1fc63843ca8af}{controller}} = controller
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_ac55c602477bfe9220b50310bc200633a}{settings\+\_\+manager}} = settings\+\_\+manager
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_adff91682c6b9f968e1274aaebac53626}{status\+\_\+monitor}} = status\+\_\+monitor
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a456d88a4738c28a2425581c3a48f4d33}{status\+\_\+bar}} = status\+\_\+bar
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_aa54539037fcb6c01d305d1e50b364365}{ip\+\_\+label}} = QLabel("{}IP\+:"{})
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_aa6b2081fd77069668b6d8f056c42fefa}{ip\+\_\+input}} = QLine\+Edit(self.\+settings\+\_\+manager.\+get\+\_\+ip())
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a61e0e2d80cdef493f30cc2a4a2fa83ed}{port\+\_\+label}} = QLabel("{}Port\+:"{})
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a9373c9df96ca2cc6c16f9785a8923a72}{port\+\_\+input}} = QLine\+Edit(str(self.\+settings\+\_\+manager.\+get\+\_\+port()))
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a21f8ac706fcd33e9590d10f9ba410ec0}{status\+\_\+label}} = QLabel("{}Not connected"{})
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a21b83572928ec3b74e619006f37b0efa}{tcp\+\_\+radio}} = QRadio\+Button("{}TCP"{})
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_a37b1acf0bf8645067e46778d30e80a1f}{udp\+\_\+radio}} = QRadio\+Button("{}UDP (WIP)"{})
+\item 
+\mbox{\hyperlink{classcontrol__panel_1_1_control_panel_aabcfe13eb51dfef8848f67f3e5df0ca9}{connect\+\_\+button}} = QPush\+Button("{}Connect"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}This class represents the control panel of the application. Left side of the main window.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcontrol__panel_1_1_control_panel_a3ed790114cef3ad652e8497a7d16c061}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a3ed790114cef3ad652e8497a7d16c061} 
+control\+\_\+panel.\+Control\+Panel.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{controller}{, }\item[{}]{settings\+\_\+manager}{, }\item[{}]{status\+\_\+monitor}{, }\item[{}]{status\+\_\+bar}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcontrol__panel_1_1_control_panel_a6bb7c4e59f10d18d3a6953b09fe7701f}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!init\_ui@{init\_ui}}
+\index{init\_ui@{init\_ui}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{init\_ui()}{init\_ui()}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a6bb7c4e59f10d18d3a6953b09fe7701f} 
+control\+\_\+panel.\+Control\+Panel.\+init\+\_\+ui (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_aec7b261ab35415f4cb083c287c232f7e}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!set\_rpm@{set\_rpm}}
+\index{set\_rpm@{set\_rpm}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{set\_rpm()}{set\_rpm()}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_aec7b261ab35415f4cb083c287c232f7e} 
+control\+\_\+panel.\+Control\+Panel.\+set\+\_\+rpm (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Sets the RPM of the LiDAR.
+This function will set the RPM of the LiDAR to the value entered in the RPM input box. Not used in the current version.
+\end{DoxyVerb}
+ \Hypertarget{classcontrol__panel_1_1_control_panel_a87fd59ccfb61bb77c5c7037f5ccc6d8f}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!toggle\_connection@{toggle\_connection}}
+\index{toggle\_connection@{toggle\_connection}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{toggle\_connection()}{toggle\_connection()}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a87fd59ccfb61bb77c5c7037f5ccc6d8f} 
+control\+\_\+panel.\+Control\+Panel.\+toggle\+\_\+connection (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Toggles the connection status of the LiDAR.
+If the LiDAR is connected, it will disconnect. If it is disconnected, it will connect.
+
+TODO : Implement UDP connection.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classcontrol__panel_1_1_control_panel_aabcfe13eb51dfef8848f67f3e5df0ca9}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!connect\_button@{connect\_button}}
+\index{connect\_button@{connect\_button}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{connect\_button}{connect\_button}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_aabcfe13eb51dfef8848f67f3e5df0ca9} 
+control\+\_\+panel.\+Control\+Panel.\+connect\+\_\+button = QPush\+Button("{}Connect"{})}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_a9817ce10ffee68c0a4b1fc63843ca8af}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!controller@{controller}}
+\index{controller@{controller}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{controller}{controller}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a9817ce10ffee68c0a4b1fc63843ca8af} 
+control\+\_\+panel.\+Control\+Panel.\+controller = controller}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_aa6b2081fd77069668b6d8f056c42fefa}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!ip\_input@{ip\_input}}
+\index{ip\_input@{ip\_input}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{ip\_input}{ip\_input}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_aa6b2081fd77069668b6d8f056c42fefa} 
+control\+\_\+panel.\+Control\+Panel.\+ip\+\_\+input = QLine\+Edit(self.\+settings\+\_\+manager.\+get\+\_\+ip())}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_aa54539037fcb6c01d305d1e50b364365}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!ip\_label@{ip\_label}}
+\index{ip\_label@{ip\_label}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{ip\_label}{ip\_label}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_aa54539037fcb6c01d305d1e50b364365} 
+control\+\_\+panel.\+Control\+Panel.\+ip\+\_\+label = QLabel("{}IP\+:"{})}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_a9373c9df96ca2cc6c16f9785a8923a72}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!port\_input@{port\_input}}
+\index{port\_input@{port\_input}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{port\_input}{port\_input}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a9373c9df96ca2cc6c16f9785a8923a72} 
+control\+\_\+panel.\+Control\+Panel.\+port\+\_\+input = QLine\+Edit(str(self.\+settings\+\_\+manager.\+get\+\_\+port()))}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_a61e0e2d80cdef493f30cc2a4a2fa83ed}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!port\_label@{port\_label}}
+\index{port\_label@{port\_label}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{port\_label}{port\_label}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a61e0e2d80cdef493f30cc2a4a2fa83ed} 
+control\+\_\+panel.\+Control\+Panel.\+port\+\_\+label = QLabel("{}Port\+:"{})}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_ac55c602477bfe9220b50310bc200633a}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!settings\_manager@{settings\_manager}}
+\index{settings\_manager@{settings\_manager}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{settings\_manager}{settings\_manager}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_ac55c602477bfe9220b50310bc200633a} 
+control\+\_\+panel.\+Control\+Panel.\+settings\+\_\+manager = settings\+\_\+manager}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_a456d88a4738c28a2425581c3a48f4d33}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!status\_bar@{status\_bar}}
+\index{status\_bar@{status\_bar}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{status\_bar}{status\_bar}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a456d88a4738c28a2425581c3a48f4d33} 
+control\+\_\+panel.\+Control\+Panel.\+status\+\_\+bar = status\+\_\+bar}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_a21f8ac706fcd33e9590d10f9ba410ec0}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!status\_label@{status\_label}}
+\index{status\_label@{status\_label}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{status\_label}{status\_label}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a21f8ac706fcd33e9590d10f9ba410ec0} 
+control\+\_\+panel.\+Control\+Panel.\+status\+\_\+label = QLabel("{}Not connected"{})}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_adff91682c6b9f968e1274aaebac53626}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!status\_monitor@{status\_monitor}}
+\index{status\_monitor@{status\_monitor}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{status\_monitor}{status\_monitor}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_adff91682c6b9f968e1274aaebac53626} 
+control\+\_\+panel.\+Control\+Panel.\+status\+\_\+monitor = status\+\_\+monitor}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_a21b83572928ec3b74e619006f37b0efa}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!tcp\_radio@{tcp\_radio}}
+\index{tcp\_radio@{tcp\_radio}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{tcp\_radio}{tcp\_radio}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a21b83572928ec3b74e619006f37b0efa} 
+control\+\_\+panel.\+Control\+Panel.\+tcp\+\_\+radio = QRadio\+Button("{}TCP"{})}
+
+\Hypertarget{classcontrol__panel_1_1_control_panel_a37b1acf0bf8645067e46778d30e80a1f}\index{control\_panel.ControlPanel@{control\_panel.ControlPanel}!udp\_radio@{udp\_radio}}
+\index{udp\_radio@{udp\_radio}!control\_panel.ControlPanel@{control\_panel.ControlPanel}}
+\doxysubsubsection{\texorpdfstring{udp\_radio}{udp\_radio}}
+{\footnotesize\ttfamily \label{classcontrol__panel_1_1_control_panel_a37b1acf0bf8645067e46778d30e80a1f} 
+control\+\_\+panel.\+Control\+Panel.\+udp\+\_\+radio = QRadio\+Button("{}UDP (WIP)"{})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{control__panel_8py}{control\+\_\+panel.\+py}}\end{DoxyCompactItemize}

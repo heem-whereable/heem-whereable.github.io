@@ -1,0 +1,248 @@
+\doxysection{lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler Class Reference}
+\hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler}{}\label{classlidar__response__handler_1_1_li_d_a_r_response_handler}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a0eeaa428a390520b08493f9640690e67}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a970b693d485757b18f9ebda2048a9212}{lidar\+\_\+monitor}}, \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a4d9b5bd6f38d545a8685b7be026d1d19}{status\+\_\+monitor}}, \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_af1795b82f79d97a081029273bded6b25}{lidar}}, \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a2c6be8f281865b97deaa635694af078e}{status\+\_\+bar}})
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_ac0e90ab64ade91b26409dc77bcbc689e}{parse\+\_\+express\+\_\+scan\+\_\+response}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a272e6fa9846a1d7c795bf6db79b24279}{handle\+\_\+full\+\_\+scan}} (self, scan\+\_\+data)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_ae2146ef9bb30bc04bab762c1521c1ab6}{handle\+\_\+response}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a38093f014f92c292841d84c0582e75d1}{parse\+\_\+info\+\_\+response}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_ad2b37e09c2e046b5354052b5241a415f}{parse\+\_\+health\+\_\+response}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_ad1085e6e8416146185c0169e327dd260}{parse\+\_\+samplerate\+\_\+response}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a2845b4bc48da1b677bc7ed3f7cbce238}{parse\+\_\+scan\+\_\+mode\+\_\+count}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_ada54e68af198f9481cbb6fc34ec7340b}{parse\+\_\+scan\+\_\+mode\+\_\+typical}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a824b74f9a41b828e036f60fd1d5dfba7}{parse\+\_\+scan\+\_\+mode\+\_\+us\+\_\+per\+\_\+sample}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a6e406bf564b528450064401c2baf9687}{parse\+\_\+scan\+\_\+mode\+\_\+max\+\_\+distance}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a1324790fc5ea997e5a913a114ca76f22}{parse\+\_\+scan\+\_\+mode\+\_\+ans\+\_\+type}} (self, response)
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_ae5aef1678eba0dc9b71b0c8fd21448c4}{parse\+\_\+scan\+\_\+mode\+\_\+name}} (self, response)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a4d9b5bd6f38d545a8685b7be026d1d19}{status\+\_\+monitor}} = status\+\_\+monitor
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a970b693d485757b18f9ebda2048a9212}{lidar\+\_\+monitor}} = lidar\+\_\+monitor
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_af1795b82f79d97a081029273bded6b25}{lidar}} = lidar
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a2c6be8f281865b97deaa635694af078e}{status\+\_\+bar}} = status\+\_\+bar
+\item 
+bool \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a6d6421bb907ecbb92605ee6ccd4ae900}{is\+\_\+handling\+\_\+express\+\_\+scan}} = False
+\item 
+int \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_ab6e696718625a6204a2e04d68bda4893}{prev\+\_\+start\+\_\+angle}} = 0
+\item 
+int \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a32775b7ca7bc63187425deb4be34fca6}{start\+\_\+angle}} = 0
+\item 
+\mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a16bea72076825a715aba81b7469885c0}{remain\+\_\+data}} = bytearray()
+\item 
+bool \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a1e0e15a81cade027d484387f8bd54f1b}{is\+\_\+starting\+\_\+express\+\_\+scan}} = False
+\item 
+list \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a4f4a7f9c9564d9fcb832ad8228cabba3}{current\+\_\+scan}} = \mbox{[}$\,$\mbox{]}
+\item 
+int \mbox{\hyperlink{classlidar__response__handler_1_1_li_d_a_r_response_handler_a92e1bdc9cd22886f4b1a28d3cf44386c}{draw\+\_\+count}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}This class handles the responses from the LiDAR device.
+This class is responsible for parsing the responses from the LiDAR device and updating the monitor accordingly.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a0eeaa428a390520b08493f9640690e67}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a0eeaa428a390520b08493f9640690e67} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{lidar\+\_\+monitor}{, }\item[{}]{status\+\_\+monitor}{, }\item[{}]{lidar}{, }\item[{}]{status\+\_\+bar}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a272e6fa9846a1d7c795bf6db79b24279}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!handle\_full\_scan@{handle\_full\_scan}}
+\index{handle\_full\_scan@{handle\_full\_scan}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{handle\_full\_scan()}{handle\_full\_scan()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a272e6fa9846a1d7c795bf6db79b24279} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+handle\+\_\+full\+\_\+scan (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{scan\+\_\+data}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Handles a full 360-degree scan.
+This function converts the polar coordinates to Cartesian coordinates and updates the monitor.
+
+@param scan_data The scan data to handle.
+
+@return None
+\end{DoxyVerb}
+ \Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_ae2146ef9bb30bc04bab762c1521c1ab6}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!handle\_response@{handle\_response}}
+\index{handle\_response@{handle\_response}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{handle\_response()}{handle\_response()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_ae2146ef9bb30bc04bab762c1521c1ab6} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+handle\+\_\+response (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Handles the response from the LiDAR device.
+This function parses the response and updates the status monitor accordingly.
+
+@param response The response from the LiDAR device.
+
+@return The parsed response.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_ac0e90ab64ade91b26409dc77bcbc689e}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_express\_scan\_response@{parse\_express\_scan\_response}}
+\index{parse\_express\_scan\_response@{parse\_express\_scan\_response}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_express\_scan\_response()}{parse\_express\_scan\_response()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_ac0e90ab64ade91b26409dc77bcbc689e} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+express\+\_\+scan\+\_\+response (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Parses the express scan response.
+This function parses the express scan response and updates the monitor accordingly.
+The express scan response is a continuous stream of data.
+The response is parsed by extracting the packets from the stream and updating the monitor with the Cartesian coordinates.
+
+packet format: [start_flag, start_angle, start_angle, s_bit, distance_1[0], distance_1[1], ..., distance_40[1], checksum]
+
+@param response The express scan response to parse.
+
+@return None
+
+
+TODO : Fix the angle calculation.
+\end{DoxyVerb}
+ \Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_ad2b37e09c2e046b5354052b5241a415f}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_health\_response@{parse\_health\_response}}
+\index{parse\_health\_response@{parse\_health\_response}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_health\_response()}{parse\_health\_response()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_ad2b37e09c2e046b5354052b5241a415f} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+health\+\_\+response (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a38093f014f92c292841d84c0582e75d1}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_info\_response@{parse\_info\_response}}
+\index{parse\_info\_response@{parse\_info\_response}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_info\_response()}{parse\_info\_response()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a38093f014f92c292841d84c0582e75d1} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+info\+\_\+response (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_ad1085e6e8416146185c0169e327dd260}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_samplerate\_response@{parse\_samplerate\_response}}
+\index{parse\_samplerate\_response@{parse\_samplerate\_response}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_samplerate\_response()}{parse\_samplerate\_response()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_ad1085e6e8416146185c0169e327dd260} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+samplerate\+\_\+response (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a1324790fc5ea997e5a913a114ca76f22}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_scan\_mode\_ans\_type@{parse\_scan\_mode\_ans\_type}}
+\index{parse\_scan\_mode\_ans\_type@{parse\_scan\_mode\_ans\_type}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_scan\_mode\_ans\_type()}{parse\_scan\_mode\_ans\_type()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a1324790fc5ea997e5a913a114ca76f22} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+scan\+\_\+mode\+\_\+ans\+\_\+type (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a2845b4bc48da1b677bc7ed3f7cbce238}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_scan\_mode\_count@{parse\_scan\_mode\_count}}
+\index{parse\_scan\_mode\_count@{parse\_scan\_mode\_count}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_scan\_mode\_count()}{parse\_scan\_mode\_count()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a2845b4bc48da1b677bc7ed3f7cbce238} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+scan\+\_\+mode\+\_\+count (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a6e406bf564b528450064401c2baf9687}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_scan\_mode\_max\_distance@{parse\_scan\_mode\_max\_distance}}
+\index{parse\_scan\_mode\_max\_distance@{parse\_scan\_mode\_max\_distance}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_scan\_mode\_max\_distance()}{parse\_scan\_mode\_max\_distance()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a6e406bf564b528450064401c2baf9687} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+scan\+\_\+mode\+\_\+max\+\_\+distance (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_ae5aef1678eba0dc9b71b0c8fd21448c4}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_scan\_mode\_name@{parse\_scan\_mode\_name}}
+\index{parse\_scan\_mode\_name@{parse\_scan\_mode\_name}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_scan\_mode\_name()}{parse\_scan\_mode\_name()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_ae5aef1678eba0dc9b71b0c8fd21448c4} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+scan\+\_\+mode\+\_\+name (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_ada54e68af198f9481cbb6fc34ec7340b}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_scan\_mode\_typical@{parse\_scan\_mode\_typical}}
+\index{parse\_scan\_mode\_typical@{parse\_scan\_mode\_typical}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_scan\_mode\_typical()}{parse\_scan\_mode\_typical()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_ada54e68af198f9481cbb6fc34ec7340b} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+scan\+\_\+mode\+\_\+typical (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a824b74f9a41b828e036f60fd1d5dfba7}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!parse\_scan\_mode\_us\_per\_sample@{parse\_scan\_mode\_us\_per\_sample}}
+\index{parse\_scan\_mode\_us\_per\_sample@{parse\_scan\_mode\_us\_per\_sample}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{parse\_scan\_mode\_us\_per\_sample()}{parse\_scan\_mode\_us\_per\_sample()}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a824b74f9a41b828e036f60fd1d5dfba7} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+parse\+\_\+scan\+\_\+mode\+\_\+us\+\_\+per\+\_\+sample (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{response}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a4f4a7f9c9564d9fcb832ad8228cabba3}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!current\_scan@{current\_scan}}
+\index{current\_scan@{current\_scan}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{current\_scan}{current\_scan}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a4f4a7f9c9564d9fcb832ad8228cabba3} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+current\+\_\+scan = \mbox{[}$\,$\mbox{]}}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a92e1bdc9cd22886f4b1a28d3cf44386c}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!draw\_count@{draw\_count}}
+\index{draw\_count@{draw\_count}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{draw\_count}{draw\_count}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a92e1bdc9cd22886f4b1a28d3cf44386c} 
+int lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+draw\+\_\+count = 0}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a6d6421bb907ecbb92605ee6ccd4ae900}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!is\_handling\_express\_scan@{is\_handling\_express\_scan}}
+\index{is\_handling\_express\_scan@{is\_handling\_express\_scan}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{is\_handling\_express\_scan}{is\_handling\_express\_scan}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a6d6421bb907ecbb92605ee6ccd4ae900} 
+bool lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+is\+\_\+handling\+\_\+express\+\_\+scan = False}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a1e0e15a81cade027d484387f8bd54f1b}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!is\_starting\_express\_scan@{is\_starting\_express\_scan}}
+\index{is\_starting\_express\_scan@{is\_starting\_express\_scan}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{is\_starting\_express\_scan}{is\_starting\_express\_scan}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a1e0e15a81cade027d484387f8bd54f1b} 
+bool lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+is\+\_\+starting\+\_\+express\+\_\+scan = False}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_af1795b82f79d97a081029273bded6b25}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!lidar@{lidar}}
+\index{lidar@{lidar}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{lidar}{lidar}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_af1795b82f79d97a081029273bded6b25} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+lidar = lidar}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a970b693d485757b18f9ebda2048a9212}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!lidar\_monitor@{lidar\_monitor}}
+\index{lidar\_monitor@{lidar\_monitor}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{lidar\_monitor}{lidar\_monitor}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a970b693d485757b18f9ebda2048a9212} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+lidar\+\_\+monitor = lidar\+\_\+monitor}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_ab6e696718625a6204a2e04d68bda4893}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!prev\_start\_angle@{prev\_start\_angle}}
+\index{prev\_start\_angle@{prev\_start\_angle}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{prev\_start\_angle}{prev\_start\_angle}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_ab6e696718625a6204a2e04d68bda4893} 
+int lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+prev\+\_\+start\+\_\+angle = 0}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a16bea72076825a715aba81b7469885c0}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!remain\_data@{remain\_data}}
+\index{remain\_data@{remain\_data}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{remain\_data}{remain\_data}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a16bea72076825a715aba81b7469885c0} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+remain\+\_\+data = bytearray()}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a32775b7ca7bc63187425deb4be34fca6}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!start\_angle@{start\_angle}}
+\index{start\_angle@{start\_angle}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{start\_angle}{start\_angle}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a32775b7ca7bc63187425deb4be34fca6} 
+int lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+start\+\_\+angle = 0}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a2c6be8f281865b97deaa635694af078e}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!status\_bar@{status\_bar}}
+\index{status\_bar@{status\_bar}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{status\_bar}{status\_bar}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a2c6be8f281865b97deaa635694af078e} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+status\+\_\+bar = status\+\_\+bar}
+
+\Hypertarget{classlidar__response__handler_1_1_li_d_a_r_response_handler_a4d9b5bd6f38d545a8685b7be026d1d19}\index{lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}!status\_monitor@{status\_monitor}}
+\index{status\_monitor@{status\_monitor}!lidar\_response\_handler.LiDARResponseHandler@{lidar\_response\_handler.LiDARResponseHandler}}
+\doxysubsubsection{\texorpdfstring{status\_monitor}{status\_monitor}}
+{\footnotesize\ttfamily \label{classlidar__response__handler_1_1_li_d_a_r_response_handler_a4d9b5bd6f38d545a8685b7be026d1d19} 
+lidar\+\_\+response\+\_\+handler.\+Li\+DARResponse\+Handler.\+status\+\_\+monitor = status\+\_\+monitor}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{lidar__response__handler_8py}{lidar\+\_\+response\+\_\+handler.\+py}}\end{DoxyCompactItemize}

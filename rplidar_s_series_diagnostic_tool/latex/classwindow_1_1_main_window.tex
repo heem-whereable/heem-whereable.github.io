@@ -1,0 +1,133 @@
+\doxysection{window.\+Main\+Window Class Reference}
+\hypertarget{classwindow_1_1_main_window}{}\label{classwindow_1_1_main_window}\index{window.MainWindow@{window.MainWindow}}
+Inheritance diagram for window.\+Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classwindow_1_1_main_window}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a8f95392d55bc878c1abe9a0570a1703b}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_ae26a19f4a37d6ce11c261d9ecffc13e9}{init\+\_\+ui}} (self)
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a88ff6ca0e1e1a00f0c9b9f362dbd34ab}{update\+\_\+status\+\_\+bar}} (self, message)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a60fffbcfc6760c46e587c6318b8e92a6}{status\+\_\+bar}} = self.\+status\+Bar()
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_aa5062aa6043299b44b1214eea01f09be}{settings\+\_\+manager}} = \mbox{\hyperlink{classsettings_1_1_settings_manager}{Settings\+Manager}}()
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a6b607a28898328bc084e3284e7a72a01}{status\+\_\+monitor}} = \mbox{\hyperlink{classstatus__monitor_1_1_status_monitor_tab}{Status\+Monitor\+Tab}}()
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a560a9650d7d830a2eee852a666079af7}{lidar\+\_\+monitor}} = \mbox{\hyperlink{classlidar__monitor_1_1_li_d_a_r_monitor}{Li\+DARMonitor}}()
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_af73707d0bf6e6e9cf718a77ad5e449f3}{controller}}
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a5dc6d12893630ae589cf2e74299863e9}{control\+\_\+panel}} = \mbox{\hyperlink{classcontrol__panel_1_1_control_panel}{Control\+Panel}}(self.\+controller, self.\+settings\+\_\+manager, self.\+status\+\_\+monitor, self.\+status\+\_\+bar)
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a78efb34747dff2afe2a04f1777d47a24}{command\+\_\+panel}} = \mbox{\hyperlink{classcommand__panel_1_1_command_panel}{Command\+Panel}}(self.\+controller, self.\+status\+\_\+monitor)
+\item 
+\mbox{\hyperlink{classwindow_1_1_main_window_a35f829317dc2c56e144fe6635f3ba426}{menu\+\_\+bar}} = \mbox{\hyperlink{classmenu__bar_1_1_menu_bar_manager}{Menu\+Bar\+Manager}}(self.\+control\+\_\+panel, self.\+status\+\_\+monitor)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}This class represents the main window of the application. It contains the control panel, command panel, LiDAR monitor, and status monitor.
+each of these components is a separate tab in the main window. The main window also contains the menu bar.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classwindow_1_1_main_window_a8f95392d55bc878c1abe9a0570a1703b}\index{window.MainWindow@{window.MainWindow}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a8f95392d55bc878c1abe9a0570a1703b} 
+window.\+Main\+Window.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classwindow_1_1_main_window_ae26a19f4a37d6ce11c261d9ecffc13e9}\index{window.MainWindow@{window.MainWindow}!init\_ui@{init\_ui}}
+\index{init\_ui@{init\_ui}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{init\_ui()}{init\_ui()}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_ae26a19f4a37d6ce11c261d9ecffc13e9} 
+window.\+Main\+Window.\+init\+\_\+ui (\begin{DoxyParamCaption}\item[{}]{self}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classwindow_1_1_main_window_a88ff6ca0e1e1a00f0c9b9f362dbd34ab}\index{window.MainWindow@{window.MainWindow}!update\_status\_bar@{update\_status\_bar}}
+\index{update\_status\_bar@{update\_status\_bar}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{update\_status\_bar()}{update\_status\_bar()}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a88ff6ca0e1e1a00f0c9b9f362dbd34ab} 
+window.\+Main\+Window.\+update\+\_\+status\+\_\+bar (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{message}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classwindow_1_1_main_window_a78efb34747dff2afe2a04f1777d47a24}\index{window.MainWindow@{window.MainWindow}!command\_panel@{command\_panel}}
+\index{command\_panel@{command\_panel}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{command\_panel}{command\_panel}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a78efb34747dff2afe2a04f1777d47a24} 
+window.\+Main\+Window.\+command\+\_\+panel = \mbox{\hyperlink{classcommand__panel_1_1_command_panel}{Command\+Panel}}(self.\+controller, self.\+status\+\_\+monitor)}
+
+\Hypertarget{classwindow_1_1_main_window_a5dc6d12893630ae589cf2e74299863e9}\index{window.MainWindow@{window.MainWindow}!control\_panel@{control\_panel}}
+\index{control\_panel@{control\_panel}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{control\_panel}{control\_panel}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a5dc6d12893630ae589cf2e74299863e9} 
+window.\+Main\+Window.\+control\+\_\+panel = \mbox{\hyperlink{classcontrol__panel_1_1_control_panel}{Control\+Panel}}(self.\+controller, self.\+settings\+\_\+manager, self.\+status\+\_\+monitor, self.\+status\+\_\+bar)}
+
+\Hypertarget{classwindow_1_1_main_window_af73707d0bf6e6e9cf718a77ad5e449f3}\index{window.MainWindow@{window.MainWindow}!controller@{controller}}
+\index{controller@{controller}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{controller}{controller}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_af73707d0bf6e6e9cf718a77ad5e449f3} 
+window.\+Main\+Window.\+controller}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ LiDARController(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ ip=self.settings\_manager.get\_ip(),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ port=self.settings\_manager.get\_port(),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ lidar\_monitor=self.lidar\_monitor,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ status\_monitor=self.status\_monitor,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ status\_bar=self.status\_bar}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ )}
+
+\end{DoxyCode}
+\Hypertarget{classwindow_1_1_main_window_a560a9650d7d830a2eee852a666079af7}\index{window.MainWindow@{window.MainWindow}!lidar\_monitor@{lidar\_monitor}}
+\index{lidar\_monitor@{lidar\_monitor}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{lidar\_monitor}{lidar\_monitor}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a560a9650d7d830a2eee852a666079af7} 
+window.\+Main\+Window.\+lidar\+\_\+monitor = \mbox{\hyperlink{classlidar__monitor_1_1_li_d_a_r_monitor}{Li\+DARMonitor}}()}
+
+\Hypertarget{classwindow_1_1_main_window_a35f829317dc2c56e144fe6635f3ba426}\index{window.MainWindow@{window.MainWindow}!menu\_bar@{menu\_bar}}
+\index{menu\_bar@{menu\_bar}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{menu\_bar}{menu\_bar}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a35f829317dc2c56e144fe6635f3ba426} 
+window.\+Main\+Window.\+menu\+\_\+bar = \mbox{\hyperlink{classmenu__bar_1_1_menu_bar_manager}{Menu\+Bar\+Manager}}(self.\+control\+\_\+panel, self.\+status\+\_\+monitor)}
+
+\Hypertarget{classwindow_1_1_main_window_aa5062aa6043299b44b1214eea01f09be}\index{window.MainWindow@{window.MainWindow}!settings\_manager@{settings\_manager}}
+\index{settings\_manager@{settings\_manager}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{settings\_manager}{settings\_manager}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_aa5062aa6043299b44b1214eea01f09be} 
+window.\+Main\+Window.\+settings\+\_\+manager = \mbox{\hyperlink{classsettings_1_1_settings_manager}{Settings\+Manager}}()}
+
+\Hypertarget{classwindow_1_1_main_window_a60fffbcfc6760c46e587c6318b8e92a6}\index{window.MainWindow@{window.MainWindow}!status\_bar@{status\_bar}}
+\index{status\_bar@{status\_bar}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{status\_bar}{status\_bar}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a60fffbcfc6760c46e587c6318b8e92a6} 
+window.\+Main\+Window.\+status\+\_\+bar = self.\+status\+Bar()}
+
+\Hypertarget{classwindow_1_1_main_window_a6b607a28898328bc084e3284e7a72a01}\index{window.MainWindow@{window.MainWindow}!status\_monitor@{status\_monitor}}
+\index{status\_monitor@{status\_monitor}!window.MainWindow@{window.MainWindow}}
+\doxysubsubsection{\texorpdfstring{status\_monitor}{status\_monitor}}
+{\footnotesize\ttfamily \label{classwindow_1_1_main_window_a6b607a28898328bc084e3284e7a72a01} 
+window.\+Main\+Window.\+status\+\_\+monitor = \mbox{\hyperlink{classstatus__monitor_1_1_status_monitor_tab}{Status\+Monitor\+Tab}}()}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{window_8py}{window.\+py}}\end{DoxyCompactItemize}
