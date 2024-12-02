@@ -20,5 +20,8 @@ var searchData=
   ['get_5ftmp_5fans_5ftype_44',['get_tmp_ans_type',['../classlidar_1_1LiDAR.html#ade869cadb66f51da931b5be27f9611c1',1,'lidar::LiDAR']]],
   ['get_5ftmp_5fmax_5fdistance_45',['get_tmp_max_distance',['../classlidar_1_1LiDAR.html#ad6a526eb80e54f5ec777ee66f0baf1cf',1,'lidar::LiDAR']]],
   ['get_5ftmp_5fname_46',['get_tmp_name',['../classlidar_1_1LiDAR.html#a686af560360de930b1d6266608499208',1,'lidar::LiDAR']]],
-  ['get_5ftmp_5fus_5fper_5fsample_47',['get_tmp_us_per_sample',['../classlidar_1_1LiDAR.html#a5dfbb9777c2ccb6ca09850ed177202f6',1,'lidar::LiDAR']]]
+  ['get_5ftmp_5fus_5fper_5fsample_47',['get_tmp_us_per_sample',['../classlidar_1_1LiDAR.html#a5dfbb9777c2ccb6ca09850ed177202f6',1,'lidar::LiDAR']]],
+  ['get_5fx_5fcoord_48',['get_x_coord',['../classsettings_1_1SettingsManager.html#ac577d276120816517614bfd952ae5851',1,'settings::SettingsManager']]],
+  ['get_5fy_5fcoord_49',['get_y_coord',['../classsettings_1_1SettingsManager.html#a7ecd7ed9faff157110016d598b3557e9',1,'settings::SettingsManager']]],
+  ['get_5fzoom_50',['get_zoom',['../classsettings_1_1SettingsManager.html#a035515f96781e5a83c85ab9978e38c22',1,'settings::SettingsManager']]]
 ];

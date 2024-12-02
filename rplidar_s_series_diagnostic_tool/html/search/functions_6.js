@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['load_5fconfig_268',['load_config',['../classsettings_1_1SettingsManager.html#ac4788fe82821db74f05a063f9b05f1eb',1,'settings::SettingsManager']]],
-  ['log_5fevent_269',['log_event',['../classstatus__monitor_1_1StatusMonitorTab.html#a0a59b05d7f698150b7f077f20ae0faef',1,'status_monitor::StatusMonitorTab']]]
+  ['keypressevent_287',['keyPressEvent',['../classlidar__monitor_1_1LiDARMonitor.html#a1359bb49374994971d53de6a64feb0a1',1,'lidar_monitor::LiDARMonitor']]],
+  ['keyreleaseevent_288',['keyReleaseEvent',['../classlidar__monitor_1_1LiDARMonitor.html#af733a8a570257aa9b1c9eb9c66549756',1,'lidar_monitor::LiDARMonitor']]]
 ];
