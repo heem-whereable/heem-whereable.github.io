@@ -18,8 +18,9 @@ var searchData=
   ['recv_5fscan_5fus_5fper_5fsample_126',['RECV_SCAN_US_PER_SAMPLE',['../namespacelidar__controller.html#adfc582504ac8f3522ffaa14e534eb86e',1,'lidar_controller']]],
   ['remain_5fdata_127',['remain_data',['../classlidar__response__handler_1_1LiDARResponseHandler.html#a16bea72076825a715aba81b7469885c0',1,'lidar_response_handler::LiDARResponseHandler']]],
   ['reset_128',['reset',['../classlidar__controller_1_1LiDARController.html#aa87ca9bcf524fb91b5cbfc7f70a63723',1,'lidar_controller::LiDARController']]],
-  ['response_5fhandler_129',['response_handler',['../classlidar__controller_1_1LiDARController.html#aac4281f9be1bf9f4d9b68c8aa704e792',1,'lidar_controller::LiDARController']]],
-  ['ridar_5fposition_5fx_130',['ridar_position_x',['../classlidar__monitor_1_1LiDARMonitor.html#ac29e0e3da0277be8bd0d427965fd2e19',1,'lidar_monitor::LiDARMonitor']]],
-  ['ridar_5fposition_5fy_131',['ridar_position_y',['../classlidar__monitor_1_1LiDARMonitor.html#af135df48b4ac04cda662c58770821eff',1,'lidar_monitor::LiDARMonitor']]],
-  ['rpm_5flabel_132',['rpm_label',['../classstatus__monitor_1_1StatusMonitorTab.html#ad5fedeaa2cad28a68e64d78bb6c32250',1,'status_monitor::StatusMonitorTab']]]
+  ['reset_5fbutton_129',['reset_button',['../classcontrol__panel_1_1LidarControlPanel.html#a01df4a05cfb6b10ed47f7142799a20ed',1,'control_panel::LidarControlPanel']]],
+  ['response_5fhandler_130',['response_handler',['../classlidar__controller_1_1LiDARController.html#aac4281f9be1bf9f4d9b68c8aa704e792',1,'lidar_controller::LiDARController']]],
+  ['ridar_5fposition_5fx_131',['ridar_position_x',['../classlidar__monitor_1_1LiDARMonitor.html#ac29e0e3da0277be8bd0d427965fd2e19',1,'lidar_monitor::LiDARMonitor']]],
+  ['ridar_5fposition_5fy_132',['ridar_position_y',['../classlidar__monitor_1_1LiDARMonitor.html#af135df48b4ac04cda662c58770821eff',1,'lidar_monitor::LiDARMonitor']]],
+  ['rpm_5flabel_133',['rpm_label',['../classstatus__monitor_1_1StatusMonitorTab.html#ad5fedeaa2cad28a68e64d78bb6c32250',1,'status_monitor::StatusMonitorTab']]]
 ];

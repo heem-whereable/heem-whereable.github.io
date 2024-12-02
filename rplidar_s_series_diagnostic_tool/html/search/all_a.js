@@ -12,7 +12,7 @@ var searchData=
   ['parse_5fscan_5fmode_5ftypical_105',['parse_scan_mode_typical',['../classlidar__response__handler_1_1LiDARResponseHandler.html#ae77cc8b15b0611e418ea5b6065c7fccd',1,'lidar_response_handler::LiDARResponseHandler']]],
   ['parse_5fscan_5fmode_5fus_5fper_5fsample_106',['parse_scan_mode_us_per_sample',['../classlidar__response__handler_1_1LiDARResponseHandler.html#ac887ee8d6e1785c42a7d0caba3e3c749',1,'lidar_response_handler::LiDARResponseHandler']]],
   ['port_107',['port',['../classlidar_1_1LiDAR.html#ae5b81be392216a59265f93c49c47c232',1,'lidar.LiDAR.port()'],['../classlidar__controller_1_1LiDARController.html#a9846f5f3c481b0bf72cd50671d2ef708',1,'lidar_controller.LiDARController.port()']]],
-  ['port_5finput_108',['port_input',['../classcontrol__panel_1_1ControlPanel.html#a9373c9df96ca2cc6c16f9785a8923a72',1,'control_panel::ControlPanel']]],
-  ['port_5flabel_109',['port_label',['../classcontrol__panel_1_1ControlPanel.html#a61e0e2d80cdef493f30cc2a4a2fa83ed',1,'control_panel::ControlPanel']]],
+  ['port_5finput_108',['port_input',['../classcontrol__panel_1_1LidarControlPanel.html#a389f46c2dfc3c66378722da772598183',1,'control_panel::LidarControlPanel']]],
+  ['port_5flabel_109',['port_label',['../classcontrol__panel_1_1LidarControlPanel.html#a73351de9e08d61c6f6fc81ee41100160',1,'control_panel::LidarControlPanel']]],
   ['prev_5fstart_5fangle_110',['prev_start_angle',['../classlidar__response__handler_1_1LiDARResponseHandler.html#a009df8abe8ddf2499c7b1367a79a1334',1,'lidar_response_handler::LiDARResponseHandler']]]
 ];
