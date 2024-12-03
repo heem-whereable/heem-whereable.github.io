@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['wheelevent_351',['wheelEvent',['../classlidar__monitor_1_1LiDARMonitor.html#a6eb2014e695afddd3ab7040289a097ff',1,'lidar_monitor::LiDARMonitor']]],
-  ['write_5floop_352',['write_loop',['../classlidar__controller_1_1LiDARController.html#a00033cb1fe3b79ef6dfebe1af7b92e54',1,'lidar_controller::LiDARController']]]
+  ['update_5fconnection_5fdisplay_5fstatus_364',['update_connection_display_status',['../classstatus__monitor_1_1StatusMonitorTab.html#a93e5e16f1c720f9d7fb5c1a398d31f92',1,'status_monitor::StatusMonitorTab']]],
+  ['update_5flidar_5fhealth_5fdisplay_365',['update_lidar_health_display',['../classstatus__monitor_1_1StatusMonitorTab.html#a9e7957d04dee8cc942aa6b53141f504a',1,'status_monitor::StatusMonitorTab']]],
+  ['update_5frpm_5fdisplay_366',['update_rpm_display',['../classstatus__monitor_1_1StatusMonitorTab.html#a34f05fccf0c54b2daa6e1d87c108d9b0',1,'status_monitor::StatusMonitorTab']]],
+  ['update_5fstatus_5fbar_367',['update_status_bar',['../classwindow_1_1MainWindow.html#aa0f396675e2ed6ea6181d676dbcf7375',1,'window::MainWindow']]],
+  ['update_5fstatus_5finfo_368',['update_status_info',['../classlidar__controller_1_1LiDARController.html#a6b989e2e4033129b1b719f6ffbff3eed',1,'lidar_controller::LiDARController']]]
 ];

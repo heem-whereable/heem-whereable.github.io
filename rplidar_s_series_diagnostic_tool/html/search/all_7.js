@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keypressevent_64',['keyPressEvent',['../classlidar__monitor_1_1LiDARMonitor.html#a1359bb49374994971d53de6a64feb0a1',1,'lidar_monitor::LiDARMonitor']]],
-  ['keyreleaseevent_65',['keyReleaseEvent',['../classlidar__monitor_1_1LiDARMonitor.html#af733a8a570257aa9b1c9eb9c66549756',1,'lidar_monitor::LiDARMonitor']]]
+  ['keypressevent_66',['keyPressEvent',['../classlidar__monitor_1_1LidarMonitor.html#ad3145ccaaea2db1b753c5464a7010ce5',1,'lidar_monitor::LidarMonitor']]],
+  ['keyreleaseevent_67',['keyReleaseEvent',['../classlidar__monitor_1_1LidarMonitor.html#aa7b933d388d9c849d907efe104bc79e2',1,'lidar_monitor::LidarMonitor']]]
 ];

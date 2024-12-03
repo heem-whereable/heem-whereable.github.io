@@ -80,6 +80,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa012b81e8b135944bd7c508fbe9f0b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cd2dec6b6175750fa9fdb55c156358f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#a8cd2dec6b6175750fa9fdb55c156358f">connect</a> (self)</td></tr>
 <tr class="separator:a8cd2dec6b6175750fa9fdb55c156358f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6a1ba5e77ac3bfc30143bf01ac32b1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#a3a6a1ba5e77ac3bfc30143bf01ac32b1">receive_data</a> (self, data)</td></tr>
+<tr class="separator:a3a6a1ba5e77ac3bfc30143bf01ac32b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2930a86e9d21a66f328901e46b1b8776"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#a2930a86e9d21a66f328901e46b1b8776">process_buffer</a> (self)</td></tr>
+<tr class="separator:a2930a86e9d21a66f328901e46b1b8776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b13facd1a89e29b6aed2c907a97655b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#a9b13facd1a89e29b6aed2c907a97655b">send_command</a> (self, request_header, request_type=0x00, payload=-1)</td></tr>
 <tr class="separator:a9b13facd1a89e29b6aed2c907a97655b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed5e1960bebaabf71e088bd6c24f825f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#aed5e1960bebaabf71e088bd6c24f825f">read_loop</a> (self)</td></tr>
@@ -137,10 +141,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a66577d7665eae4ddd69888e2101468fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2eec0c46d0df6a24647656802732ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#a7f2eec0c46d0df6a24647656802732ab">write_task</a></td></tr>
 <tr class="separator:a7f2eec0c46d0df6a24647656802732ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac4281f9be1bf9f4d9b68c8aa704e792"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#aac4281f9be1bf9f4d9b68c8aa704e792">response_handler</a></td></tr>
-<tr class="separator:aac4281f9be1bf9f4d9b68c8aa704e792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fc4825c793387ee391c732463b84c2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#a9fc4825c793387ee391c732463b84c2c">is_udp</a></td></tr>
 <tr class="separator:a9fc4825c793387ee391c732463b84c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1e434ad061ef26b1f57db3bee56101"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#abd1e434ad061ef26b1f57db3bee56101">receive_buffer</a></td></tr>
+<tr class="separator:abd1e434ad061ef26b1f57db3bee56101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4281f9be1bf9f4d9b68c8aa704e792"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#aac4281f9be1bf9f4d9b68c8aa704e792">response_handler</a></td></tr>
+<tr class="separator:aac4281f9be1bf9f4d9b68c8aa704e792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a7a849290487a829bb26319eca71e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlidar__controller_1_1LiDARController.html#ab9a7a849290487a829bb26319eca71e4">protocol</a></td></tr>
+<tr class="separator:ab9a7a849290487a829bb26319eca71e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">This class represents the LiDAR controller for the application.
@@ -277,9 +285,6 @@ This class is responsible for handling the communication between the application
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Closes the connection to the LiDAR device.
-This function closes the connection to the LiDAR device.
-This function is an asynchronous function.
-TODO : Implement UDP connection.
 </pre> 
 </div>
 </div>
@@ -299,9 +304,6 @@ TODO : Implement UDP connection.
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Connects to the LiDAR device.
-This function establishes a connection to the LiDAR device.
-This function is an asynchronous function.
-TODO : Implement UDP connection.
 </pre> 
 </div>
 </div>
@@ -327,6 +329,24 @@ This function is an asynchronous function.
 </pre> 
 </div>
 </div>
+<a id="a2930a86e9d21a66f328901e46b1b8776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2930a86e9d21a66f328901e46b1b8776">&#9670;&nbsp;</a></span>process_buffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def lidar_controller.LiDARController.process_buffer </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aed5e1960bebaabf71e088bd6c24f825f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed5e1960bebaabf71e088bd6c24f825f">&#9670;&nbsp;</a></span>read_loop()</h2>
 
@@ -343,10 +363,35 @@ This function is an asynchronous function.
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Reads data from the LiDAR device.
-This function reads data from the LiDAR device.
-This function is an asynchronous function.
-TODO : Implement UDP connection.
 </pre> 
+</div>
+</div>
+<a id="a3a6a1ba5e77ac3bfc30143bf01ac32b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6a1ba5e77ac3bfc30143bf01ac32b1">&#9670;&nbsp;</a></span>receive_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def lidar_controller.LiDARController.receive_data </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="aa87ca9bcf524fb91b5cbfc7f70a63723"></a>
@@ -581,9 +626,6 @@ This function is an asynchronous function.
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Writes data to the LiDAR device.
-This function writes data to the LiDAR device.
-This function is an asynchronous function.
-TODO : Implement UDP connection.
 </pre> 
 </div>
 </div>
@@ -672,6 +714,20 @@ TODO : Implement UDP connection.
 
 </div>
 </div>
+<a id="ab9a7a849290487a829bb26319eca71e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9a7a849290487a829bb26319eca71e4">&#9670;&nbsp;</a></span>protocol</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">lidar_controller.LiDARController.protocol</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a66577d7665eae4ddd69888e2101468fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66577d7665eae4ddd69888e2101468fa">&#9670;&nbsp;</a></span>read_task</h2>
 
@@ -694,6 +750,20 @@ TODO : Implement UDP connection.
       <table class="memname">
         <tr>
           <td class="memname">lidar_controller.LiDARController.reader</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd1e434ad061ef26b1f57db3bee56101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1e434ad061ef26b1f57db3bee56101">&#9670;&nbsp;</a></span>receive_buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">lidar_controller.LiDARController.receive_buffer</td>
         </tr>
       </table>
 </div><div class="memdoc">

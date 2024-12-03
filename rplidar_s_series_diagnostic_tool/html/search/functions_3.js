@@ -1,27 +1,4 @@
 var searchData=
 [
-  ['get_5fauto_5fconnect_263',['get_auto_connect',['../classsettings_1_1SettingsManager.html#a4fde7ac41e7285c81a05468f8128d328',1,'settings::SettingsManager']]],
-  ['get_5fdevice_5fhealth_264',['get_device_health',['../classlidar_1_1LiDAR.html#ad4fb80b5149b2996b76df6df539b156d',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5finfo_265',['get_device_info',['../classlidar_1_1LiDAR.html#a66572163a3a24509124ef25c74da8041',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fsamplerate_266',['get_device_samplerate',['../classlidar_1_1LiDAR.html#a56916944dbf1fc3cdde80beddafcdf84',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmode_5fans_5ftype_267',['get_device_scan_mode_ans_type',['../classlidar_1_1LiDAR.html#af616f88611a31dc59a8b798922747bea',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmode_5fcount_268',['get_device_scan_mode_count',['../classlidar_1_1LiDAR.html#a6194b638f9f34c89e25a4285832b4ea2',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmode_5fmax_5fdistance_269',['get_device_scan_mode_max_distance',['../classlidar_1_1LiDAR.html#a7518d53b24f45f2fc613b0d2af18631b',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmode_5fname_270',['get_device_scan_mode_name',['../classlidar_1_1LiDAR.html#af0c70bceb4e4ae79d6b273f767534cbb',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmode_5ftypical_271',['get_device_scan_mode_typical',['../classlidar_1_1LiDAR.html#a67e9291b5933d3eb1e2f7066689425c0',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmode_5ftypical_5fname_272',['get_device_scan_mode_typical_name',['../classlidar_1_1LiDAR.html#aa869aa40c527786c607f47c198e90b80',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmode_5fus_5fper_5fsample_273',['get_device_scan_mode_us_per_sample',['../classlidar_1_1LiDAR.html#a3dd6da69271b2f71d3758c6f777fd567',1,'lidar::LiDAR']]],
-  ['get_5fdevice_5fscan_5fmodes_274',['get_device_scan_modes',['../classlidar_1_1LiDAR.html#a50d8a87d3ef8740b8af304cf0b22a39d',1,'lidar::LiDAR']]],
-  ['get_5fevery_5finfo_275',['get_every_info',['../classlidar__controller_1_1LiDARController.html#abd616dd17414f6f19ec83f3181782b59',1,'lidar_controller::LiDARController']]],
-  ['get_5fevery_5flidar_5finfo_276',['get_every_lidar_info',['../classlidar_1_1LiDAR.html#a27f284746fa5c5b89e916f9949c4d1ff',1,'lidar::LiDAR']]],
-  ['get_5fip_277',['get_ip',['../classlidar_1_1LiDAR.html#a1c4b8eeb8c8805f06df5065dc96c99d4',1,'lidar.LiDAR.get_ip()'],['../classsettings_1_1SettingsManager.html#a0ade646b5841e0478330985b5ed63b31',1,'settings.SettingsManager.get_ip()']]],
-  ['get_5fport_278',['get_port',['../classlidar_1_1LiDAR.html#af16ef09211949f6e6cae482a7a8ec2d6',1,'lidar.LiDAR.get_port()'],['../classsettings_1_1SettingsManager.html#a8354975e8a77b76db2db8f39827367fd',1,'settings.SettingsManager.get_port(self)']]],
-  ['get_5frpm_279',['get_rpm',['../classsettings_1_1SettingsManager.html#a4b67ee6400757ccc56ad61e86f93d4dd',1,'settings::SettingsManager']]],
-  ['get_5ftmp_5fans_5ftype_280',['get_tmp_ans_type',['../classlidar_1_1LiDAR.html#ade869cadb66f51da931b5be27f9611c1',1,'lidar::LiDAR']]],
-  ['get_5ftmp_5fmax_5fdistance_281',['get_tmp_max_distance',['../classlidar_1_1LiDAR.html#ad6a526eb80e54f5ec777ee66f0baf1cf',1,'lidar::LiDAR']]],
-  ['get_5ftmp_5fname_282',['get_tmp_name',['../classlidar_1_1LiDAR.html#a686af560360de930b1d6266608499208',1,'lidar::LiDAR']]],
-  ['get_5ftmp_5fus_5fper_5fsample_283',['get_tmp_us_per_sample',['../classlidar_1_1LiDAR.html#a5dfbb9777c2ccb6ca09850ed177202f6',1,'lidar::LiDAR']]],
-  ['get_5fx_5fcoord_284',['get_x_coord',['../classsettings_1_1SettingsManager.html#ac577d276120816517614bfd952ae5851',1,'settings::SettingsManager']]],
-  ['get_5fy_5fcoord_285',['get_y_coord',['../classsettings_1_1SettingsManager.html#a7ecd7ed9faff157110016d598b3557e9',1,'settings::SettingsManager']]],
-  ['get_5fzoom_286',['get_zoom',['../classsettings_1_1SettingsManager.html#a035515f96781e5a83c85ab9978e38c22',1,'settings::SettingsManager']]]
+  ['datagram_5freceived_278',['datagram_received',['../classlidar__udp__protocol__handler_1_1LidarUdpProtocolHandler.html#ad0b8737a16e78009995749d98a2c2f3d',1,'lidar_udp_protocol_handler::LidarUdpProtocolHandler']]]
 ];
