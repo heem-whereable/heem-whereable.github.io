@@ -2,8 +2,8 @@ var searchData=
 [
   ['calculate_5fchecksum_5',['calculate_checksum',['../classlidar__controller_1_1LiDARController.html#ab09446ce7b2557a5729f97929859b809',1,'lidar_controller::LiDARController']]],
   ['calculate_5frpm_6',['calculate_rpm',['../classlidar__controller_1_1LiDARController.html#a7753558d06582347f04afc061f585665',1,'lidar_controller::LiDARController']]],
-  ['cleanup_5fcount_7',['cleanup_count',['../classlidar__monitor_1_1LidarMonitor.html#affbe11807c0fcdbb82103fe8a26cc107',1,'lidar_monitor::LidarMonitor']]],
-  ['clear_5flogs_8',['clear_logs',['../classstatus__monitor_1_1StatusMonitorTab.html#af31241be90fa52f49760c7649321628e',1,'status_monitor::StatusMonitorTab']]],
+  ['clear_5flogs_7',['clear_logs',['../classstatus__monitor_1_1StatusMonitorTab.html#af31241be90fa52f49760c7649321628e',1,'status_monitor::StatusMonitorTab']]],
+  ['clear_5fpoints_8',['clear_points',['../classlidar__monitor_1_1LidarMonitor.html#a5a3fe8b81472fcff69d14f98b7fa2d09',1,'lidar_monitor::LidarMonitor']]],
   ['clear_5ftmp_5fvalues_9',['clear_tmp_values',['../classlidar_1_1Lidar.html#a7bd08f18d97688f74d1f31e4342af1bf',1,'lidar::Lidar']]],
   ['close_10',['close',['../classlidar__controller_1_1LiDARController.html#add2c00ee918e4240af53652d40ce6587',1,'lidar_controller::LiDARController']]],
   ['close_5fapplication_11',['close_application',['../classmenu__bar_1_1MenuBarManager.html#a398abc212eb6946f9678ae8aad5fcdde',1,'menu_bar::MenuBarManager']]],
