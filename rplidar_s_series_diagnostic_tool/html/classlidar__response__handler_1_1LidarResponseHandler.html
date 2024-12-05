@@ -278,22 +278,20 @@ The response is parsed by extracting the packets from the stream and updating th
 
 Response packet format: 
 
-TODO : Change example with the actual response packet format.
-
 |---------------------------------------------  Express Scan  ---------------------------------------------|
 |                                                                                                          |
 | Sync 1 | checksum 1 | Sync 2 | checksum 2 | Start Angle 1 | isStarting | Start Angle 2 | Distance Cabins |
 |  4 bit |   4 bit    | 4 bit  |   4 bit    |     8 bit     |   1 bit    |    7 bit      |     80 bit      |
 |       1 byte        |       1 byte        |     1 byte    |         1 byte             |     40 byte     |
 |---------------------------------------------    Example    ----------------------------------------------|
-|  0xA0  |    0x02    |  0x50  |    0x07    |      0x7A     |     0x1    |     0x18      |      ...        |
-|              Checksum = 0x72              |         Angle = (0x18 &lt;&lt; 7) + 0x7A = 0x0E7A = 3706           |
+|  0xA0  |    0x0F    |  0x50  |    0x0D    |      0xF6     |     0x0    |     0x39      |      ...        |
+|              Checksum = 0xDF              |         Angle = (0x39 &lt;&lt; 7) + 0xF6 = 0x0EF6           |
 |----------------------------------------------------------------------------------------------------------|
 |                                            Header + Cabins                                               |
 |                                           4 + 80 = 84 bytes                                              |
 |                                                  🤔                                                      |
 |----------------------------------------------------------------------------------------------------------|
-|                                 🎉                                  🎉                                  |
+|                                 🎉 AF 5D F6 38 | 63 11 ... 4A 10🎉                                  |
 |----------------------------------------------------------------------------------------------------------|
 
 
