@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['udp_5fradio_218',['udp_radio',['../classcontrol__panel_1_1LidarControlPanel.html#a85ce0ace240ffc38d67481175e84eedf',1,'control_panel::LidarControlPanel']]],
-  ['update_5fbutton_219',['update_button',['../classstatus__monitor_1_1StatusMonitorTab.html#a61983a5e1eb8e1730c0aadb7f8d7ecc8',1,'status_monitor::StatusMonitorTab']]],
-  ['update_5fconnection_5fdisplay_5fstatus_220',['update_connection_display_status',['../classstatus__monitor_1_1StatusMonitorTab.html#a93e5e16f1c720f9d7fb5c1a398d31f92',1,'status_monitor::StatusMonitorTab']]],
-  ['update_5flidar_5fhealth_5fdisplay_221',['update_lidar_health_display',['../classstatus__monitor_1_1StatusMonitorTab.html#a9e7957d04dee8cc942aa6b53141f504a',1,'status_monitor::StatusMonitorTab']]],
-  ['update_5frpm_5fdisplay_222',['update_rpm_display',['../classstatus__monitor_1_1StatusMonitorTab.html#a34f05fccf0c54b2daa6e1d87c108d9b0',1,'status_monitor::StatusMonitorTab']]],
-  ['update_5fstatus_5fbar_223',['update_status_bar',['../classwindow_1_1MainWindow.html#aa0f396675e2ed6ea6181d676dbcf7375',1,'window::MainWindow']]],
-  ['update_5fstatus_5finfo_224',['update_status_info',['../classlidar__controller_1_1LiDARController.html#a6b989e2e4033129b1b719f6ffbff3eed',1,'lidar_controller::LiDARController']]]
+  ['tcp_5fradio_222',['tcp_radio',['../classcontrol__panel_1_1LidarControlPanel.html#a33fe696e0ddc1bc3f7b64cc3cf9381b1',1,'control_panel::LidarControlPanel']]],
+  ['tmp_5fans_5ftype_223',['tmp_ans_type',['../classlidar_1_1Lidar.html#a2817185c35c8e5ce085a04d1d92760ec',1,'lidar::Lidar']]],
+  ['tmp_5fmax_5fdistance_224',['tmp_max_distance',['../classlidar_1_1Lidar.html#a27cb0e1cc200e0a6ab6f524e2f0163a6',1,'lidar::Lidar']]],
+  ['tmp_5fname_225',['tmp_name',['../classlidar_1_1Lidar.html#a3d68bde7803f4f2878f268cf68e9d44d',1,'lidar::Lidar']]],
+  ['tmp_5fus_5fper_5fsample_226',['tmp_us_per_sample',['../classlidar_1_1Lidar.html#a67e804e0b174c9e38678f3e4363ec83a',1,'lidar::Lidar']]],
+  ['toggle_5fconnection_227',['toggle_connection',['../classcontrol__panel_1_1LidarControlPanel.html#aaee9fe653d873a7b0972e124132f1674',1,'control_panel::LidarControlPanel']]],
+  ['toggle_5ffull_5fscreen_228',['toggle_full_screen',['../classmenu__bar_1_1MenuBarManager.html#a2f9ce4cf9482a290abacbcb1850860bc',1,'menu_bar::MenuBarManager']]],
+  ['transport_229',['transport',['../classlidar__udp__protocol__handler_1_1LidarUdpProtocolHandler.html#a1ca70d0d315b3b3a9a7afd3ee9582f8d',1,'lidar_udp_protocol_handler::LidarUdpProtocolHandler']]]
 ];

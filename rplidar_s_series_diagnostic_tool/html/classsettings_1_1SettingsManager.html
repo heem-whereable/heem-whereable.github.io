@@ -94,6 +94,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7ecd7ed9faff157110016d598b3557e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a035515f96781e5a83c85ab9978e38c22"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#a035515f96781e5a83c85ab9978e38c22">get_zoom</a> (self)</td></tr>
 <tr class="separator:a035515f96781e5a83c85ab9978e38c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee5e39d711d8afd2189a954083b16efb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#aee5e39d711d8afd2189a954083b16efb">get_dark_mode</a> (self)</td></tr>
+<tr class="separator:aee5e39d711d8afd2189a954083b16efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad364f4a43dc4e1121de2109c89110827"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#ad364f4a43dc4e1121de2109c89110827">set_rpm</a> (self, rpm)</td></tr>
 <tr class="separator:ad364f4a43dc4e1121de2109c89110827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30dded853cff099d0f9e2858fb94e4da"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#a30dded853cff099d0f9e2858fb94e4da">set_ip</a> (self, ip)</td></tr>
@@ -108,13 +110,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:accafc4420a7d475d547e6ff77f5d8708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48833fde75ee5fbd7c5761bd5fdea0b1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#a48833fde75ee5fbd7c5761bd5fdea0b1">set_zoom</a> (self, zoom)</td></tr>
 <tr class="separator:a48833fde75ee5fbd7c5761bd5fdea0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea35c664e5368f7da525b6f3bbe53671"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#aea35c664e5368f7da525b6f3bbe53671">set_dark_mode</a> (self, dark_mode)</td></tr>
+<tr class="separator:aea35c664e5368f7da525b6f3bbe53671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1322a5bd5754d5a5fd00085722473646"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#a1322a5bd5754d5a5fd00085722473646">save_config</a> (self, ip, port)</td></tr>
 <tr class="separator:a1322a5bd5754d5a5fd00085722473646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb881a25fb0078e35b292d7cda72af00"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#adb881a25fb0078e35b292d7cda72af00">set_point_cloud_monitor</a> (self, <a class="el" href="classsettings_1_1SettingsManager.html#ac0440087f453c362edd02321a3391851">point_cloud_monitor</a>)</td></tr>
+<tr class="separator:adb881a25fb0078e35b292d7cda72af00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4186a81dedba615fa55d312c49e9d972"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#a4186a81dedba615fa55d312c49e9d972">config_data</a></td></tr>
 <tr class="separator:a4186a81dedba615fa55d312c49e9d972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0440087f453c362edd02321a3391851"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsettings_1_1SettingsManager.html#ac0440087f453c362edd02321a3391851">point_cloud_monitor</a></td></tr>
+<tr class="separator:ac0440087f453c362edd02321a3391851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">This class is used to manage the settings of the application. It reads the config file and provides the settings to the application.
@@ -148,6 +156,24 @@ Available settings are ip, port, rpm, and auto_connect.
       <table class="memname">
         <tr>
           <td class="memname">def settings.SettingsManager.get_auto_connect </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee5e39d711d8afd2189a954083b16efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee5e39d711d8afd2189a954083b16efb">&#9670;&nbsp;</a></span>get_dark_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def settings.SettingsManager.get_dark_mode </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -346,6 +372,34 @@ Available settings are ip, port, rpm, and auto_connect.
 
 </div>
 </div>
+<a id="aea35c664e5368f7da525b6f3bbe53671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea35c664e5368f7da525b6f3bbe53671">&#9670;&nbsp;</a></span>set_dark_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def settings.SettingsManager.set_dark_mode </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>dark_mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a30dded853cff099d0f9e2858fb94e4da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30dded853cff099d0f9e2858fb94e4da">&#9670;&nbsp;</a></span>set_ip()</h2>
 
@@ -363,6 +417,34 @@ Available settings are ip, port, rpm, and auto_connect.
           <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>ip</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb881a25fb0078e35b292d7cda72af00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb881a25fb0078e35b292d7cda72af00">&#9670;&nbsp;</a></span>set_point_cloud_monitor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def settings.SettingsManager.set_point_cloud_monitor </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>point_cloud_monitor</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -523,6 +605,20 @@ Available settings are ip, port, rpm, and auto_connect.
       <table class="memname">
         <tr>
           <td class="memname">settings.SettingsManager.config_data</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0440087f453c362edd02321a3391851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0440087f453c362edd02321a3391851">&#9670;&nbsp;</a></span>point_cloud_monitor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">settings.SettingsManager.point_cloud_monitor</td>
         </tr>
       </table>
 </div><div class="memdoc">

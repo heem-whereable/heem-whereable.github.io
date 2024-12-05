@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['settings_252',['settings',['../namespacesettings.html',1,'']]],
-  ['status_5fmonitor_253',['status_monitor',['../namespacestatus__monitor.html',1,'']]]
+  ['point_5fcloud_5fmonitor_268',['point_cloud_monitor',['../namespacepoint__cloud__monitor.html',1,'']]]
 ];

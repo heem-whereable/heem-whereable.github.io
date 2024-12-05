@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['get_5fauto_5fconnect_28',['get_auto_connect',['../classsettings_1_1SettingsManager.html#a4fde7ac41e7285c81a05468f8128d328',1,'settings::SettingsManager']]],
+  ['get_5fauto_5fconnect_27',['get_auto_connect',['../classsettings_1_1SettingsManager.html#a4fde7ac41e7285c81a05468f8128d328',1,'settings::SettingsManager']]],
+  ['get_5fdark_5fmode_28',['get_dark_mode',['../classsettings_1_1SettingsManager.html#aee5e39d711d8afd2189a954083b16efb',1,'settings::SettingsManager']]],
   ['get_5fdevice_5fhealth_29',['get_device_health',['../classlidar_1_1Lidar.html#ad991c508512d495b63a673f9bbaf7908',1,'lidar::Lidar']]],
   ['get_5fdevice_5finfo_30',['get_device_info',['../classlidar_1_1Lidar.html#a420930e40fcf01429224229137259828',1,'lidar::Lidar']]],
   ['get_5fdevice_5fsamplerate_31',['get_device_samplerate',['../classlidar_1_1Lidar.html#a874693a8aa815f10855059d09a1a74e6',1,'lidar::Lidar']]],
