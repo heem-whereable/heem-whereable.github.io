@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['udp_5fradio_491',['udp_radio',['../classcontrol__panel_1_1LidarControlPanel.html#a85ce0ace240ffc38d67481175e84eedf',1,'control_panel::LidarControlPanel']]],
-  ['update_5fbutton_492',['update_button',['../classstatus__monitor_1_1StatusMonitorTab.html#a61983a5e1eb8e1730c0aadb7f8d7ecc8',1,'status_monitor::StatusMonitorTab']]]
+  ['udp_5fradio_485',['udp_radio',['../classcontrol__panel_1_1LidarControlPanel.html#a85ce0ace240ffc38d67481175e84eedf',1,'control_panel::LidarControlPanel']]],
+  ['update_5fbutton_486',['update_button',['../classlidar__status__monitor_1_1StatusMonitorTab.html#abe0eff3a2af2445145ae474505a2437d',1,'lidar_status_monitor::StatusMonitorTab']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['paintgl_108',['paintGL',['../classlidar__monitor_1_1LidarMonitor.html#ac375483cc1e9754af1b8d01fe5e8b90c',1,'lidar_monitor.LidarMonitor.paintGL()'],['../classpoint__cloud__monitor_1_1PointCloudMonitor.html#a6ac0e0961c972790265d814d8ccb63a4',1,'point_cloud_monitor.PointCloudMonitor.paintGL()']]],
+  ['paintgl_108',['paintGL',['../classpoint__cloud__monitor_1_1PointCloudMonitor.html#a6ac0e0961c972790265d814d8ccb63a4',1,'point_cloud_monitor::PointCloudMonitor']]],
   ['parse_5fexpress_5fscan_5fresponse_109',['parse_express_scan_response',['../classlidar__response__handler_1_1LidarResponseHandler.html#a34fe7e8a81663bc1c6f1f7dc2f8bfd3a',1,'lidar_response_handler::LidarResponseHandler']]],
   ['parse_5fhealth_5fresponse_110',['parse_health_response',['../classlidar__response__handler_1_1LidarResponseHandler.html#a4a4b187d4dd067fec9664989a4ade7c6',1,'lidar_response_handler::LidarResponseHandler']]],
   ['parse_5finfo_5fresponse_111',['parse_info_response',['../classlidar__response__handler_1_1LidarResponseHandler.html#a2f7978e0cf91b4a582929cd9e05f6485',1,'lidar_response_handler::LidarResponseHandler']]],
@@ -13,11 +13,12 @@ var searchData=
   ['parse_5fscan_5fmode_5fus_5fper_5fsample_118',['parse_scan_mode_us_per_sample',['../classlidar__response__handler_1_1LidarResponseHandler.html#a9c668ae6a8f6170fb85c5058056feb80',1,'lidar_response_handler::LidarResponseHandler']]],
   ['point_5fcloud_5fmonitor_119',['point_cloud_monitor',['../namespacepoint__cloud__monitor.html',1,'point_cloud_monitor'],['../classwindow_1_1MainWindow.html#a03e634a62e1cb4fec1a45bfa84eab190',1,'window.MainWindow.point_cloud_monitor()'],['../classsettings_1_1SettingsManager.html#ac0440087f453c362edd02321a3391851',1,'settings.SettingsManager.point_cloud_monitor()'],['../classlidar__response__handler_1_1LidarResponseHandler.html#a78bff7da29d951320b7533285600b891',1,'lidar_response_handler.LidarResponseHandler.point_cloud_monitor()'],['../classlidar__controller_1_1LiDARController.html#a0b92ce59fa8c9591d3304741cae4f03d',1,'lidar_controller.LiDARController.point_cloud_monitor()']]],
   ['point_5fcloud_5fmonitor_2epy_120',['point_cloud_monitor.py',['../point__cloud__monitor_8py.html',1,'']]],
-  ['pointcloudmonitor_121',['PointCloudMonitor',['../classpoint__cloud__monitor_1_1PointCloudMonitor.html',1,'point_cloud_monitor']]],
-  ['port_122',['port',['../classlidar_1_1Lidar.html#a90ebc174bd97d5890ada9f3d532af18d',1,'lidar.Lidar.port()'],['../classlidar__controller_1_1LiDARController.html#a9846f5f3c481b0bf72cd50671d2ef708',1,'lidar_controller.LiDARController.port()']]],
-  ['port_5finput_123',['port_input',['../classcontrol__panel_1_1LidarControlPanel.html#a389f46c2dfc3c66378722da772598183',1,'control_panel::LidarControlPanel']]],
-  ['port_5flabel_124',['port_label',['../classcontrol__panel_1_1LidarControlPanel.html#a73351de9e08d61c6f6fc81ee41100160',1,'control_panel::LidarControlPanel']]],
-  ['prev_5fstart_5fangle_125',['prev_start_angle',['../classlidar__response__handler_1_1LidarResponseHandler.html#a7352908a8ae62cafa8575cba4efe63df',1,'lidar_response_handler::LidarResponseHandler']]],
-  ['process_5fbuffer_126',['process_buffer',['../classlidar__controller_1_1LiDARController.html#a2930a86e9d21a66f328901e46b1b8776',1,'lidar_controller::LiDARController']]],
-  ['protocol_127',['protocol',['../classlidar__controller_1_1LiDARController.html#ab9a7a849290487a829bb26319eca71e4',1,'lidar_controller::LiDARController']]]
+  ['point_5fcloud_5fmonitors_121',['point_cloud_monitors',['../classlidar__manger_1_1LiDARManager.html#a4c041d69da30b1fb48b1602b01249a62',1,'lidar_manger::LiDARManager']]],
+  ['pointcloudmonitor_122',['PointCloudMonitor',['../classpoint__cloud__monitor_1_1PointCloudMonitor.html',1,'point_cloud_monitor']]],
+  ['port_123',['port',['../classlidar_1_1Lidar.html#a90ebc174bd97d5890ada9f3d532af18d',1,'lidar.Lidar.port()'],['../classlidar__controller_1_1LiDARController.html#a9846f5f3c481b0bf72cd50671d2ef708',1,'lidar_controller.LiDARController.port()']]],
+  ['port_5finput_124',['port_input',['../classcontrol__panel_1_1LidarControlPanel.html#a389f46c2dfc3c66378722da772598183',1,'control_panel::LidarControlPanel']]],
+  ['port_5flabel_125',['port_label',['../classcontrol__panel_1_1LidarControlPanel.html#a73351de9e08d61c6f6fc81ee41100160',1,'control_panel::LidarControlPanel']]],
+  ['prev_5fstart_5fangle_126',['prev_start_angle',['../classlidar__response__handler_1_1LidarResponseHandler.html#a7352908a8ae62cafa8575cba4efe63df',1,'lidar_response_handler::LidarResponseHandler']]],
+  ['process_5fbuffer_127',['process_buffer',['../classlidar__controller_1_1LiDARController.html#a2930a86e9d21a66f328901e46b1b8776',1,'lidar_controller::LiDARController']]],
+  ['protocol_128',['protocol',['../classlidar__controller_1_1LiDARController.html#ab9a7a849290487a829bb26319eca71e4',1,'lidar_controller::LiDARController']]]
 ];
