@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['window_5fmultiplier_490',['window_multiplier',['../classpoint__cloud__monitor_1_1PointCloudMonitor.html#a27b57d60bb9088424bd7969f9fa5c8ad',1,'point_cloud_monitor::PointCloudMonitor']]],
-  ['write_5ftask_491',['write_task',['../classlidar__controller_1_1LiDARController.html#a7f2eec0c46d0df6a24647656802732ab',1,'lidar_controller::LiDARController']]],
-  ['writer_492',['writer',['../classlidar__controller_1_1LiDARController.html#af848d338cb84c6da2774d79e0e40c9a6',1,'lidar_controller::LiDARController']]]
+  ['tmp_5fans_5ftype_559',['tmp_ans_type',['../classlidar_1_1Lidar.html#a2817185c35c8e5ce085a04d1d92760ec',1,'lidar::Lidar']]],
+  ['tmp_5fmax_5fdistance_560',['tmp_max_distance',['../classlidar_1_1Lidar.html#a27cb0e1cc200e0a6ab6f524e2f0163a6',1,'lidar::Lidar']]],
+  ['tmp_5fname_561',['tmp_name',['../classlidar_1_1Lidar.html#a3d68bde7803f4f2878f268cf68e9d44d',1,'lidar::Lidar']]],
+  ['tmp_5fus_5fper_5fsample_562',['tmp_us_per_sample',['../classlidar_1_1Lidar.html#a67e804e0b174c9e38678f3e4363ec83a',1,'lidar::Lidar']]],
+  ['transport_563',['transport',['../classlidar__udp__protocol__handler_1_1LidarUdpProtocolHandler.html#a1ca70d0d315b3b3a9a7afd3ee9582f8d',1,'lidar_udp_protocol_handler::LidarUdpProtocolHandler']]]
 ];

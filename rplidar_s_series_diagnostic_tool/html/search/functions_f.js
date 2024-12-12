@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['wheelevent_392',['wheelEvent',['../classpoint__cloud__monitor_1_1PointCloudMonitor.html#a388e76e92bf2d04f9397f02bf00a5013',1,'point_cloud_monitor::PointCloudMonitor']]],
-  ['write_5floop_393',['write_loop',['../classlidar__controller_1_1LiDARController.html#a00033cb1fe3b79ef6dfebe1af7b92e54',1,'lidar_controller::LiDARController']]]
+  ['toggle_5fconnection_442',['toggle_connection',['../classcontrol__panel_1_1LidarControlPanel.html#aaee9fe653d873a7b0972e124132f1674',1,'control_panel::LidarControlPanel']]],
+  ['toggle_5ffull_5fscreen_443',['toggle_full_screen',['../classmenu__bar_1_1MenuBarManager.html#a2f9ce4cf9482a290abacbcb1850860bc',1,'menu_bar::MenuBarManager']]]
 ];

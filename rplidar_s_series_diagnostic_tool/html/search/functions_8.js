@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['load_5fconfig_325',['load_config',['../classsettings_1_1SettingsManager.html#ac4788fe82821db74f05a063f9b05f1eb',1,'settings::SettingsManager']]],
-  ['log_5fevent_326',['log_event',['../classlidar__status__monitor_1_1LidarStatusMonitor.html#a003cd752cd1d10779ee04078ad558596',1,'lidar_status_monitor::LidarStatusMonitor']]]
+  ['keypressevent_373',['keyPressEvent',['../classpoint__cloud__monitor_1_1PointCloudMonitor.html#a104364b01da9efd35ac6f81286e120aa',1,'point_cloud_monitor::PointCloudMonitor']]]
 ];
