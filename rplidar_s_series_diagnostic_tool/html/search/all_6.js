@@ -19,12 +19,12 @@ var searchData=
   ['get_5fevery_5finfo_52',['get_every_info',['../classlidar__controller_1_1LidarController.html#a5597a4c5b669c96da8af6d1a27633dd2',1,'lidar_controller::LidarController']]],
   ['get_5fevery_5flidar_5finfo_53',['get_every_lidar_info',['../classlidar_1_1Lidar.html#a3e70366df0423953e904a896454ee78a',1,'lidar::Lidar']]],
   ['get_5findex_54',['get_index',['../classlidar_1_1Lidar.html#a9e7b783b963d97107aaf13833377b99f',1,'lidar::Lidar']]],
-  ['get_5fip_55',['get_ip',['../classsettings_1_1SettingsManager.html#a0ade646b5841e0478330985b5ed63b31',1,'settings.SettingsManager.get_ip()'],['../classlidar_1_1Lidar.html#afaf464702dc45070095d8419880cf39d',1,'lidar.Lidar.get_ip()']]],
+  ['get_5fip_55',['get_ip',['../classlidar_1_1Lidar.html#afaf464702dc45070095d8419880cf39d',1,'lidar.Lidar.get_ip()'],['../classsettings_1_1SettingsManager.html#a0ade646b5841e0478330985b5ed63b31',1,'settings.SettingsManager.get_ip()']]],
   ['get_5flidar_56',['get_lidar',['../classlidar__manager_1_1LidarManager.html#a8cff8f7dc34a39bd9dbaef14fdfd2ef0',1,'lidar_manager::LidarManager']]],
   ['get_5flidar_5fcount_57',['get_lidar_count',['../classlidar__manager_1_1LidarManager.html#a6146cd7c18aae58877a65b1b75c53a97',1,'lidar_manager::LidarManager']]],
   ['get_5flidars_58',['get_lidars',['../classlidar__manager_1_1LidarManager.html#aea1f26ca769384d10e775cd23d46c10d',1,'lidar_manager::LidarManager']]],
   ['get_5fpoint_5fcloud_5fmonitor_59',['get_point_cloud_monitor',['../classlidar_1_1Lidar.html#a0f4504b2d7df97563a53b7ca95ae0c47',1,'lidar::Lidar']]],
-  ['get_5fport_60',['get_port',['../classlidar_1_1Lidar.html#a8d722009c97bf2dbb62ed90cee2d69bd',1,'lidar.Lidar.get_port()'],['../classsettings_1_1SettingsManager.html#a8354975e8a77b76db2db8f39827367fd',1,'settings.SettingsManager.get_port()']]],
+  ['get_5fport_60',['get_port',['../classsettings_1_1SettingsManager.html#a8354975e8a77b76db2db8f39827367fd',1,'settings.SettingsManager.get_port()'],['../classlidar_1_1Lidar.html#a8d722009c97bf2dbb62ed90cee2d69bd',1,'lidar.Lidar.get_port(self)']]],
   ['get_5fresponse_5fhandler_61',['get_response_handler',['../classlidar_1_1Lidar.html#a43daaba4481a0b0c728a8c81425651dd',1,'lidar::Lidar']]],
   ['get_5fstatus_5fbar_62',['get_status_bar',['../classlidar_1_1Lidar.html#a8641fb116274e21b416a991933f41d63',1,'lidar::Lidar']]],
   ['get_5fstatus_5fmonitor_63',['get_status_monitor',['../classlidar_1_1Lidar.html#a014c516ee6a2f6c87d69c5eaabd69cfd',1,'lidar::Lidar']]],
@@ -32,6 +32,5 @@ var searchData=
   ['get_5ftmp_5fmax_5fdistance_65',['get_tmp_max_distance',['../classlidar_1_1Lidar.html#a13799bc95ad57931187128f19db4280a',1,'lidar::Lidar']]],
   ['get_5ftmp_5fname_66',['get_tmp_name',['../classlidar_1_1Lidar.html#a4887f2a467dab490b12ede720c3a6a9e',1,'lidar::Lidar']]],
   ['get_5ftmp_5fus_5fper_5fsample_67',['get_tmp_us_per_sample',['../classlidar_1_1Lidar.html#a5277a4273251c1c8a765c4f3f5638738',1,'lidar::Lidar']]],
-  ['get_5fzoom_68',['get_zoom',['../classsettings_1_1SettingsManager.html#a035515f96781e5a83c85ab9978e38c22',1,'settings::SettingsManager']]],
-  ['green_69',['GREEN',['../namespacecontrol__panel.html#a68705bee383ce12fef142951d09a4711',1,'control_panel']]]
+  ['green_68',['GREEN',['../namespacecontrol__panel.html#a68705bee383ce12fef142951d09a4711',1,'control_panel']]]
 ];
