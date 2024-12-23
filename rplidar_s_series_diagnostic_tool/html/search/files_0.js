@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['command_5fpanel_2epy_350',['command_panel.py',['../command__panel_8py.html',1,'']]],
-  ['control_5fpanel_2epy_351',['control_panel.py',['../control__panel_8py.html',1,'']]]
+  ['command_5fpanel_2epy_356',['command_panel.py',['../command__panel_8py.html',1,'']]],
+  ['control_5fpanel_2epy_357',['control_panel.py',['../control__panel_8py.html',1,'']]]
 ];

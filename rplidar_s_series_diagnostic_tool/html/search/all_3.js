@@ -27,5 +27,6 @@ var searchData=
   ['control_5fpanel_2epy_35',['control_panel.py',['../control__panel_8py.html',1,'']]],
   ['controller_36',['controller',['../classlidar_1_1Lidar.html#a932453248ccf668283b2f4e7f2c5bfbe',1,'lidar.Lidar.controller()'],['../classlidar__udp__protocol__handler_1_1LidarUdpProtocolHandler.html#a89c92573cd1fc2371a88070ad24dd238',1,'lidar_udp_protocol_handler.LidarUdpProtocolHandler.controller()'],['../classmenu__bar_1_1MenuBarManager.html#a0d338240eb900243947f66b7448c129f',1,'menu_bar.MenuBarManager.controller()'],['../classstatus__monitor_1_1StatusMonitor.html#ad155096d447962139cb78ec66cca7d01',1,'status_monitor.StatusMonitor.controller()']]],
   ['current_5fscan_37',['current_scan',['../classlidar__response__handler_1_1LidarResponseHandler.html#acc89b3b6bb7d3cbf01d7bfeb9cd0a5e1',1,'lidar_response_handler::LidarResponseHandler']]],
-  ['cyan_38',['CYAN',['../namespacecontrol__panel.html#a397045abe26c1b8d075d9d04c7e4eb51',1,'control_panel']]]
+  ['current_5fversion_38',['CURRENT_VERSION',['../namespacemenu__bar.html#af07830a26b8cacdc2c608e72cb9adac7',1,'menu_bar']]],
+  ['cyan_39',['CYAN',['../namespacecontrol__panel.html#a397045abe26c1b8d075d9d04c7e4eb51',1,'control_panel']]]
 ];
