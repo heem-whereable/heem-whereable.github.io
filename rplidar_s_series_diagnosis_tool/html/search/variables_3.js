@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['general_5fconfig_0',['general_config',['../classsettings_1_1_settings_manager.html#af31985f0712b13a77cac7a1835908e78',1,'settings::SettingsManager']]],
-  ['green_1',['GREEN',['../namespacecontrol__panel.html#a68705bee383ce12fef142951d09a4711',1,'control_panel']]]
+  ['general_5fconfig_557',['general_config',['../classsettings_1_1SettingsManager.html#a4a52e741785bf583048e048f3923d5b0',1,'settings::SettingsManager']]],
+  ['green_558',['GREEN',['../namespacecontrol__panel.html#a68705bee383ce12fef142951d09a4711',1,'control_panel']]]
 ];
